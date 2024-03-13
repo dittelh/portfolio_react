@@ -24,6 +24,11 @@
   src: url("./assets/fonts/SOURCESANSPRO-LIGHT.TTF");
 }
 
+@font-face {
+  font-family: SourceBold;
+  src: url("./assets/fonts/SOURCESANSPRO-BOLD.TTF");
+}
+
 body {
   background-color: var(--pink);
   color: var(--blue);

@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <h1>Ditte Lykke Hansen</h1>
       <h2>Fullstack web developer</h2>
-      <div className='constructionDiv'>
+      <div className="constructionDiv">
         <p>My portfolio is under construction!</p>
         <img
           className="constructionImg"
@@ -15,12 +15,22 @@ function App() {
           alt="Construction image"
         />
       </div>
-      <div className='cvQrDiv'>
+      <div className="cvQrDiv">
         <p>
           But it is soon going to be released - in the meantime you can scan the
           QR to download my CV.
         </p>
         <img className="cvQr" src={CV_QR} alt="QR to Ditte Lykke Hansens CV" />
+      </div>
+        <p>OR</p>
+      <div className='btnDiv'>
+        <a
+          className="downloadBtn"
+          href="https://dittelh.dk/CV.pdf"
+          target="_blank"
+        >
+          DOWNLOAD MY CV
+        </a>
       </div>
     </div>
   );

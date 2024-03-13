@@ -36,6 +36,28 @@ p {
   margin-top: 3rem;
 }
 
+.downloadBtn{
+  border: 2px solid var(--blue);
+  color: var(--blue);
+  text-decoration: none;
+  padding: 1rem 2rem;
+  font-family: SourceBold;
+}
+
+.downloadBtn:hover{
+  border: 2px solid var(--blue);
+  color: #ffffff;
+  background-color: var(--blue);
+  text-decoration: none;
+  padding: 1rem 2rem;
+  font-family: SourceBold;
+}
+
+.btnDiv{
+  margin-top: 3rem;
+
+}
+
 
 
 @media (min-width: 900px) {
